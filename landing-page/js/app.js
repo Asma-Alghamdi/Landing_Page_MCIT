@@ -24,7 +24,6 @@
 */
 const mainContent = document.getElementsByTagName('section');
 const navBar = document.getElementById('navbar__list');
-let itemList = [];
 
 
 /**
@@ -47,7 +46,6 @@ function activeNavItem(dataNav){
     const listArray = Array.from(listItems);
 
     for(let i = 0; i < listArray.length; i++ ){
-        
         if(dataNav == listArray[i].innerText){
             listArray[i].childNodes[0].classList.add("active");
         }else{
