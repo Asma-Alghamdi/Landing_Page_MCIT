@@ -3,7 +3,8 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [Architecture](#Architecture)
+* [Architecture](#architecture)
+* [Features](#features)
 
 ## Instructions
 
@@ -16,9 +17,16 @@ For specific, detailed instructions, look at the project instructions in the Uda
 
 ## Architecture
 
-* [css]
- * styles.css    
-* [index.html]
-* [js]
- * app.js
-* [README.md]
+* css
+   * styles.css    
+* index.html
+* js
+   * app.js
+* README.md
+
+
+## Features
+
+* Build navigation dynamically
+* Make viewed section active.
+* Scroll the link to the appropriate section, when clicking an item from the navigation menu.
